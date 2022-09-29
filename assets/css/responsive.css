@@ -1,3 +1,4 @@
+
 @media all and (max-width:1439px){
     .logo a {
         font-size: 28px;
@@ -152,13 +153,19 @@
         position: relative;
     }
     .dash_menu .nav.nav-tabs {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .dash_menu li {
         glex: 0 0 !important;
-        flex: 0 0 23%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 23%;
+                flex: 0 0 23%;
     }
     .all_content {
         max-width: 100%;
@@ -172,6 +179,8 @@
 
 @media all and (min-width:992px){
     .right_menu {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -217,7 +226,9 @@
         color: #FFEB3D;
         font-size: 67px;
         margin-left: 0;
-        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
     }
     .example_div {
         display: block;
@@ -226,18 +237,24 @@
         padding-bottom: 59px;
     }
     .left_tabs {
-        flex: 0 0 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
         max-width: 100%;
     }
     .all_tabs_items {
-        flex-wrap:wrap ;
+        -ms-flex-wrap:wrap ;
+            flex-wrap:wrap ;
     }
     .right_tabs {
-        flex: 0 0 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
         max-width: 100%;
     }
     .all_semana_content {
-      flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
     }
     .single_semana {
         max-width: 100%;
@@ -282,7 +299,8 @@
         width: 100%;
         padding: 40px 30px;
         z-index: 999;
-        box-shadow: 0 0 12px #3D3131;
+        -webkit-box-shadow: 0 0 12px #3D3131;
+                box-shadow: 0 0 12px #3D3131;
         border-radius: 19px;
         display: none;
     }
@@ -298,14 +316,20 @@
         text-align: center;
     }
     .dash_menu li {
-        flex: 0 0 48%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
     }
     .novo_form_group {
-        flex: 0 0 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
     }
-   
+    .page_all_p {
+        margin-top: 10px;
+    }
 }
 
 @media all and (max-width:767px){
@@ -356,8 +380,12 @@
         padding: 25px;
     }
     .toolbar {
-        justify-content: flex-start;
-        align-items: center;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .single_novo textarea {
         min-height: 178px;
@@ -453,16 +481,23 @@
         margin-bottom: 62px;
     }
     .toolbar {
+        display: -ms-grid;
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(10px,30px));
         background-color: rgb(231, 231, 231);
         color: rgb(0, 0, 0);
         grid-gap: 1px;
         padding: 9px;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .dash_menu li {
-        flex: 0 0 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
     }
 }
