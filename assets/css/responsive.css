@@ -1,0 +1,468 @@
+@media all and (max-width:1439px){
+    .logo a {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+    }
+    .menu_btn a {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .hero_form input {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hero_form button {
+        font-size: 16px;
+    }
+    .flex_example ul li {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    h2 {
+        font-size: 39px;
+        line-height: 48px;
+    }
+    p, li {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .left_nav_ling .nav-link {
+        font-size: 24px;
+    }
+    .tb_con span {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .ss p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .r_signle1 h4 {
+        font-size: 39px;
+        line-height: 59px;
+    }
+    .r_signle1 h3 {
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .r_tab_menu ul li a {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .single_semana h4 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .single_semana p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .single_semana a {
+        font-size: 21px
+    }
+    .new_modal .modal-body {
+        padding: 44px 69px;
+    }
+}
+
+@media all and (max-width:1199px){
+    h1 {
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .hero_form input {
+        font-size: 16px;
+        line-height: 20px;
+        width: 240px;
+    }
+    .section_padding {
+        padding: 50px 0;
+    }
+    .total {
+        max-width: 100%;
+    }
+    .como_side_single:first-child {
+        margin-left: 62px;
+    }
+    .flex_example ul li span {
+        background: #000;
+        min-width: 100px !important;
+    }
+    .flex_example ul li span:first-child{
+        min-width:auto !important;
+    }
+    .z_icon {
+        right: 9%;
+        left: 0;
+    }
+    .como_side_content {
+        margin-top: 0;
+    }
+    .como_bar {
+        position: absolute;
+        left: 18%;
+    }
+    .example {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .left_nav_ling .nav-link {
+        font-size: 21px;
+    }
+    .r_single {
+        padding: 25px 15px;
+    }
+    .single_semana p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .single_semana h4 {
+        font-size: 26px;
+        line-height: 41px;
+    }
+    .section_heading a {
+        font-size: 20px;
+
+    }
+    .like_flex img {
+        width: 36px;
+    }
+    .like_flex .counting span {
+        font-size: 21px;
+        line-height: 18px;
+    }
+    .se_like {
+        margin-top: -132px;
+    }
+    .all_semana_content {
+        margin-top: 194px;
+    }
+
+    /* dashboard page  */
+    .dash_menu {
+        max-width: 100%;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .dash_menu .nav.nav-tabs {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .dash_menu li {
+        glex: 0 0 !important;
+        flex: 0 0 23%;
+    }
+    .all_content {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .dash_content_div {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+@media all and (min-width:992px){
+    .right_menu {
+        display: flex !important;
+    }
+}
+
+
+@media all and (max-width:991px){
+    .hero_img {
+        margin-top: 32px;
+    }
+    .como_side_content {
+        display: block;
+
+    }
+    .como_side_single:first-child {
+        margin: 0 auto;
+
+    }
+    .como_side_single {
+        max-width: 448px;
+        margin-left:0;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .z_icon {
+        right: 0;
+        left: 0;
+        position: relative;
+        margin-top: 40px;
+    }
+    .como_z_content {
+        display: none;
+    }
+    .flex_example {
+        display: block;
+        text-align: center;
+    }
+    .example_div {
+        display: block;
+    }
+    .flex_example i {
+        color: #FFEB3D;
+        font-size: 67px;
+        margin-left: 0;
+        transform: rotate(90deg);
+    }
+    .example_div {
+        display: block;
+        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 59px;
+    }
+    .left_tabs {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .all_tabs_items {
+        flex-wrap:wrap ;
+    }
+    .right_tabs {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .all_semana_content {
+      flex-wrap: wrap;
+    }
+    .single_semana {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 166px;
+    }
+    .all_semana_content {
+        margin-top: 0;
+    }
+    .vs {
+        margin-top: 36px;
+    }
+    .copyright ul li a {
+        font-size: 14px;
+    }
+    .footer_all {
+        padding-bottom: 27px;
+        border-bottom: 1px solid #FFF;
+        margin-bottom: 30px;
+    }
+    .footer_area_design {
+        background: #000;
+        padding-top: 35px;
+        padding-bottom: 25px;
+        position: relative;
+        z-index: 1;
+    }
+    .semana_section.section_padding .section_heading {
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .btn12 {
+        display: block;
+    }
+    .right_menu {
+        display: block;
+        position: absolute;
+        top: 76px;
+        background: #000;
+        width: 100%;
+        padding: 40px 30px;
+        z-index: 999;
+        box-shadow: 0 0 12px #3D3131;
+        border-radius: 19px;
+        display: none;
+    }
+    .menu ul li {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .menu ul {
+        display: block;
+        text-align: center;
+    }
+    .menu_btn {
+        text-align: center;
+    }
+    .dash_menu li {
+        flex: 0 0 48%;
+    }
+    .novo_form_group {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+   
+}
+
+@media all and (max-width:767px){
+    .copyright ul {
+        display: block;
+        text-align: center;
+    }
+    .semana_section.section_padding .section_heading {
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    p, li {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .tb_con span {
+        font-size: 14px;
+        line-height: normal;
+        line-height: 17px;
+        display: block;
+    }
+    .tb_con p {
+        font-size: 18px;
+    }
+    .single_semana p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .copyright ul li a {
+        font-size: 14px;
+        margin: 10px 0;
+        display: block;
+    }
+    .dash_menu li a {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .dash_menu {
+        padding: 22px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+    .dash_content_div {
+        padding: 25px;
+    }
+    .toolbar {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .single_novo textarea {
+        min-height: 178px;
+    }
+    .editor {
+        min-height: 226px;
+    }
+    .submit_btn input {
+        font-size: 18px;
+    }
+    .dash_content_div {
+        padding: 25px;
+        margin-bottom: 62px;
+    }
+}
+
+@media all and (max-width:575px){
+    .new_modal .modal-body {
+        padding: 19px 22px;
+    }
+    .f_header h2 {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hero_form input {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .hero_form button{
+        width: 100%;
+        border-radius: 6px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .tab_single_content {
+        display: block;
+    }
+    .tb_left {
+        display: block;
+        max-width: 100%;
+    }
+    .tb_img {
+        max-width: 100%;
+        max-height: 100%;
+        background: #3B3B3B;
+        border-radius: 10px;
+        margin-right: 18px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 18px;
+    }
+    .tb_right button {
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 24px;
+        margin-right: 19px;
+    }
+    .left_nav_ling .nav-link {
+        font-size: 17px;
+        padding: 0;
+    }
+    .section_heading {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .tb_con p {
+        font-size: 22px;
+    }
+    .tb_con span {
+        font-size: 17px;
+        line-height: normal;
+        line-height: 22px;
+        display: block;
+        margin-top: 6px;
+    }
+    .single_novo input {
+        height: 45px;
+    }
+    .dash_content_div {
+        padding: 20px 10px;
+        margin-bottom: 62px;
+    }
+    .toolbar {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(10px,30px));
+        background-color: rgb(231, 231, 231);
+        color: rgb(0, 0, 0);
+        grid-gap: 1px;
+        padding: 9px;
+        justify-content: center;
+        align-items: center;
+    }
+    .dash_menu li {
+        flex: 0 0 100%;
+    }
+}
